@@ -1,0 +1,124 @@
+Fundamentos do sq-cmm:
+	- especifico para area de software
+	- coleta dados atraves de um questionario padronizado
+	- transição para cmmmi levará alguns anos
+FATORES DA QUALIDADE E PRODUTIVIDADE:
+	- Tecnologia, pessoas, processos
+- O SW-CMM focaliza os processos (fato com maior potencial de melhoria)
+
+CRITERIOS PARA IDENTIFICAÇÃO DOS NIVEIS DE MATURIDADE:
+	- Prover degraus intermediários em sequencia razoável
+	- Sugerir medidas de progresso e objetivos intermediários
+AS ÁREAS-CHAVE DE PROCESSO:
+	- Identificam grupo de atividades correlatas
+	- Residem em um unico nivel de maturidade
+	- Identificam as questões que devem ser resolvidas para atingir um nivel de maturidade
+
+ESTRUTURA DO SW-CMM:
+	- Os NIVEIS DE MATURIDADE identificam capacidade dos processos
+	- cada nivel de maturidade tem um conjunto de AREAS-CHAVE DE PROCESSOS
+	- cada area-chave de processo visa atingir um conjunto de METAS
+	- cada area de processo compreeende um conjunto de PRATICAS-CHAVE
+	- as praticas-chave são agrupadas por CARACTERÍSTICAS COMUNS, ex atividades de implementação, atividades de institucionalização.
+
+NIVEIS DE MATURIDADE DO SW-CMM:
+ 	1- Inicial: previsivel, incontrolavel
+	2- Repetivel: consegue repetir tarefas
+	3- Definido: processos bem entendidos
+	4- Gerido: processos medidos e controlados
+	5- Otimizante: melhoria continua dos processos
+
+A ORGANIZAÇÃO NIVEL 1:
+	- Processo informal, caotico, talvez heorico
+	- falta de utilização real de procedimentos formais, estimativas de custo ou planos de projeto
+	- codificação é a unica parte dos processos que merece atenção
+	- engenharia de requisitos e desenho são fracos ou inexistentes
+	- mudança de requisitos e de outros artefatos ocorre sem controle
+	- gerentes não atendem os verdadeiros problemas
+	- processos definidos no papel não são aplicados na realidade
+
+PASSAGEM DO NIVEL 1 AO 2:
+	- Gestão de requisitos permite definição e controle dos compromissos
+	- Planejmaneto de projetos preve prazos e custos para cumprimento dos compromissos
+	- Supervisão e acompanhamento de projetos confere o atendimento dos compromissos
+	- Gestao de configurações garante a consistencia permanente
+	- Gestao dos subcontratados cobra destes os mesmos padroes de qualidade
+
+AREAS-CHAVE DO PROCESSO DO NIVEL 2:
+	- GESTAO DE REQUISITOS
+	- PLANEJAMENTO DE PROJETOS
+	- SUPERVISAO E ACOMANHAMENTO DE PROJETOS
+	- GARANTIA DA QUALIDADE	
+	- GESTAO DE CONFIGURAÇÕES
+	- GESTÃO DE SUBCONTRATAÇÃO
+
+
+- A ORGANIZAÇÃO NIVEL 2:
+	- Sabe estimar e controlar projetos semelhantes a projetos anteriores, porem corre-se riscos diante de mudanças
+
+PASSAGEM DO NIVEL 2 AO 3
+	- Estabelecimento de um GRUPO DE PROCESSOS DE ENGENHARIA DE SOFTWARE
+	- Estabelecimento de um PROCESSO PADRÃO
+	- Estabelecimento de um PROGRAMA DE TREINAMENTO
+	- GESTÃO INTEGRADA DOS PROJETOS
+	- PADRONIZAÇÃO dos metodos de ENGENHARIA DE SOFTWARE
+
+AREAS CHAVE DE PROCESSO DO NIVEL 3:
+	- FOCALIZAÇÃO DA ORGANIZAÇÃO NOS PROCESSOS
+	- DEFINIÇÃO DOS PROCESSOS DA ORGANIZAÇÃO 
+	- PROGRAMA DE TREINAMENTO
+	- ENGENHARIA DE PRODUTOS DE SOFTWARE
+	- GESTAO INTEGRADA DE SOFTWARE
+	- COOREDANÇAÕ ENTRE GRUPOS
+	- REVISOES PELOS PARES
+- a ORGANIZAÇÃO NIVEL 3:
+	- sabe manter-se dentro do processo
+	- o conhecimento do processo ainda é qualitativo
+	- as medidas ainda não são usadas de forma sistematica para melhora os processos
+
+PASSAGEM DO NIVEL 3 AO NIVEL 4:
+	- estabelecimento de um conjunto de MEDIDAS DE PROCESSOS
+	- implantação de uma BASE DE DADOS DE PROCESSO 
+	- AFERIÇÃO DA QUALIDADE DOS PRODUTOS e ação gerencial quando os OBJETIVOS DA QUALIDADE não sao atingidos
+
+AREAS DE PROCESSO NIVEL 4:
+	- GESTAO DA QUALIDADE DOS PRODUTOS
+	- GESTÃO QUANTITATIVA DOS PROCESSOS
+
+A ORGANIZAÇÃO NIVEL 4:
+	- Sabe colegar metrigas e gerir a base de dados de processo
+	- sabe intervir nos processos para atingir metas de qualidade dos produtos
+
+PASSAGEM DO NIVEL 4 AO NIVEL 5:
+	- postura PREVENTIVA em relação aos DEFEITOS
+	- AUTOMAÇÃO DOS PROCESSOS atraves de TECNOLOGIA APROPRIADA
+	- uso dos dados de processos para ANALISE E MODIFICAÇÃO DESTE
+
+AREAS-CHAVE DE PROCESSO DO NIVEL 5
+	- PREVENÇÃO DE DEFEITOS
+	- GESTÃO DAS MUDANÇAS DE TECNOLOGIA 
+	- GESTÃO DAS MUDANÇAS DE PROCESSOS
+
+ESTRUTURA ORGANIZACIONAL E PAPEIS
+- SW-CMM tenta ser independente da estrutura real das organizações:
+	- Descrição de algumas estruturas logicas e necessaria para implementação
+- PAPEIS NA ORGANIZAÇÃO:
+	- unidades de responsabilidades que podem ser assumidas por um ou masi individuos
+- ESTRUTURA LOGICAS DESCRITAS NO SW-CMM
+	- Organização
+	- Projeto
+	- Grupos
+
+Organização: limite de uma area de produção gerenciavel
+Projeto: empreendimento no sentido de desenvolver ou manter um produto
+Gerente: Responsavel tecnico e administrativo por uma area
+Gerencia executiva: nivel hierarquico e estrategico mais alto,
+Gerente de projeto: responsabilidade completa num projeto, responsavel aos olhos do cliente
+Gerente imediato: responsavel por uma divisão do projeto
+Lider: coordenação de uma tarefa, responsabilidade tecnica
+Grupo: Conjunto de profissionais e unidades que tem uma responsabilidade definida
+
+Grupos no SW-CMM
+- Grupos de garantia da qualidade de software
+- Grupo de gestão de configuração de software
+- Grupo de engenharia de processos de software	

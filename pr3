@@ -1,0 +1,50 @@
+Processos:
+- Conjunto de passos parcialmente ordenados usados para atingir uma meta
+Ciclos de vida:
+- Codifica-remenda: sem especificação, passa por um furacão e vira um produto
+	- mais usado e alto risco
+- A cascata: faz primeiro os requisitos, depois analise, desenho, implementação e por ultimo os testes
+	- teoricamente é confiável e muito utilizável, mas se é rígido e burocrático
+	- baixa visibilidade para o cliente que so recebe o resultado no final do projeto.
+- A cascata com realimentação:
+	- analise manda feedback para o requisito, desenho para analise e assim por diante.
+- A espiral:
+	- passa vaarias vezes pelos quadros de ativação, analise, desenvolvimento e operação, ate a terminação do projeto.
+	- usada para versões provisorias
+- Protipagem evolutiva: esperial
+	- Inicia com o planejamento da iteração e passa por todos os passos da cascata, por fim avalia a interação, se precisar realiza uma nova interação ou termina.
+ 	- cobre cada vez mais requisitos e eles podem ser definidos progressivamente, alta flexibilidade e visibilidade para os clientes
+	- processos ágeis
+
+- A entrega evolutiva:
+	- usuários podem avaliar partes do produto
+	- facilita o acompanhamento dos projetos
+
+O PROCESSO PESSOAL DE SOFTWARE (PSP)
+	- Processo para indivíduos e pequenas equipes
+	- melhor gestão de controle do trabalho pessoal
+
+PROCESSO DE SOFTWARE PARA TIMES (TSP)
+	- sequencia de passos:
+		- lançamento, estrategia, planejamento, requisitos, desenho, implementação, testes, post mortem
+
+O processo unificado
+	- autores da uml
+	- estrutura matricial: faases x fluxos
+	- dirigido por casos de uso, centrado na arquitetura, iterativo e incremental
+RUP(rational)
+	- combina fluxos de analise e desenho
+	- novos fluxos: modelagem de negócios, implantação, gestão de configurações e alterações, gestão de projetos e ambiente;
+EUP(ambler):
+	- conceitos adicionais: open, process patterns
+	- orietados par a organização
+	- fase adicional de produção
+
+Requisitos do Praxis
+- Requisitos de um processo educacional:
+	arquitetura: mapeamento entre marcos de cursos e de processo
+	orientação por equipes: adequação a equipes pequenas a médias
+	tempo de ciclo: de 6 meses a 1 ano
+	padrões e práticas: exposição a paradigmas e padrões difundidos
+	apoio ao aluno
+	apoio ao instrutor

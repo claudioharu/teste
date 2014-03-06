@@ -1,0 +1,31 @@
+Nomenclatura do praxis
+- Fase: divisão do processo, corresponde aos pontos principais de aceitação
+- Iteração: Passo constituinte de uma fase
+- script: conjunto de instruções, define como uma iteração deve ser executada
+- Fluxo: subprocesso caracterizado por um tema
+- Subfluxo: conjunto de atividades mais estreitamente correlatas, faz parte de um fluxo maior.
+- Atividade: passo constituinte de um fluxo
+- Técnica: método ou prática, aplicável a execução de um fluxo.
+FASES DO PRAXIS:
+- Concepção: decisão de desenvolver um produto
+	- ativação
+- Elaboração: dimensionamento firme
+	- levantamento e analise dos requisitos
+- Construção: entrega de produto 
+	- desenho implementavel, liberações de 1 a n; teste alfa
+- Transição: passagem ao ambiente de uso
+	- teste beta
+	- operação piloto
+Script de uma iteração do processo:
+- Descrição: frase que resume a natureza da iteração
+- Pré-requisito: Condições para que uma iteração possa ser iniciada
+- Insumo: Artefatos que são utilizados nas atividades executadas em uma iteração
+- Atividade sugeridas: atividades tipicamente executadas durante uma iteração
+- Resultados: artefatos produzidos pelas atividades executadas em uma iteração
+- Criterios de aprovação: condições para que uma iteração seja considera completa e aprovada.
+
+FLUXOS GERENCIAIS DO PRAXIS
+- GESTÃO DE PROJETOS
+- GESTÃO DE QUALIDADE
+- ENGENHARIA DE PROCESSOS
+

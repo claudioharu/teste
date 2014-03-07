@@ -29,3 +29,61 @@ FLUXOS GERENCIAIS DO PRAXIS
 - GESTÃO DE QUALIDADE
 - ENGENHARIA DE PROCESSOS
 
+PROCESSOS SUBSIDIÁRIOS DO PRAXIS
+- Contratação de projetos
+- Manutenção de produtos
+
+DOCUMENTOS DO PRAXIS
+- Técnicos: manual do usuário
+- Gerenciais: plano de desenvolvimento..
+
+MODELOS DO PRAXIS
+- Técnicos: modelos oo, codigo fonte
+- Gerenciais: cadastro dos requisitos, memória de planejamento do projeto
+
+RELATÓRIOS DO PRAXIS:
+- Gestão de projeto: acompanhamento de projeto
+- Gestão da qualidade: testes, revizões 
+- Engenharia deprocessos:especificos da organização
+
+MATERIAL PARA CONFEÇÃO DOS ARTEFATOS:
+- gabaritos, padrões, listas de conferência, exemplos.
+
+FERRAMENTAS DO PROCESSO
+- Básicas: planilha, ferramentas de modelagem, etc
+- Avançadas: ferramentas de gestão, etc.
+
+IMPLEMENTAÇÃO DO PRAXIS
+A ITERAÇÃO AT:
+- Define proposta de projetos, mestas e prazo.
+- Artefato principal: proposta de especificação.
+A ITERAÇÃO LR:
+- Levanta requisitos focalizando os usuarios
+- permite estimativas preliminares
+- artefatos princiapis: especificação de requisitos, modelo de analise, artefatos preliminares de planejamento.
+A ITERAÇÃO AR:
+- Detalha requisitos
+- inicia o desenho
+- permite estimativas firmes
+- artefatos princiapis: especificação de requisitos completa, modelo de analise completo, artefatos completos, modelo inicial de desenho.
+A ITERAÇÃO DI:
+- desenha, implementa e testa
+- permite avaliação melhor
+- artefatos principais: documento e modelo de desenho, codigo do produto e de testes, relatorios de revisão e inspeção...
+
+CADA LIBERAÇÃO (Ln):
+- desenha,implementa e testa
+- enfoque na avaliação pelos usuáros
+- artefatos princiais: documento e modelo, codigo do produto e de teste , relatorios de gestão etc
+
+A ITERAÇÃO TA:
+- teste de aceitação
+- preparação para transição
+- artefatos: bateria e relatorios de testes relatorios de revisão, documentação preliminar para usuários, etc
+A ITERAÇÃO TB
+- testes de aceitação no ambiente definitivo
+- artefatos princiapis: produto testado, relatórios de gestão, relatórios de testes
+A ITERAÇÃO OP
+- Operação em liberdade vigiada
+- inicio da manutençaõ e suporte
+- artefatos principais: produto entregue, relatorios de gestão, documentação para usuario.

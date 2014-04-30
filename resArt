@@ -1,0 +1,27 @@
+A fim de resolver este problema, foi proposta uma abordagem orientada a aspectos para modularizar os interesses transversais em uma modelagem de processos de negocio que consiste em uma metalinguagem independente de qualquer notação de processos de negocio. O artigo ilustará uma aplicabilidade da abordagem usando a notação BPMN e um estudo de caso que se aproveita da AOPML.
+
+BPMN
+BPMN prove uma notação grafica para a especificação de processos de negócio. Ela é composta por diagramas com um pequeno conjunto de elementos gráficos. As quatro categorias básicas de elementos são as seguintes:
+	* Objetos de Fluxo: Eventos, Atividades e GateWays (porta de entrada)
+	* Objetos de conexão: Fluxo de sequencia,Fluxo de mensagens, associações
+	* Raias
+	* Artefatos: Objetos de dados, Grupos, Anotações
+Estas quatro categorias de elementos, nos dão a oportunidade de fazer um simples diagrama de processo de negococio, como podemos ver abaixo.
+
+Nesta sessão apresentaremos uma parte do processo steering committee. Ela é composta de sub-processos como "enviar artigo", "enviar artigo aos colaboradores" e revisão do artigo.
+
+imagens
+
+Imagine que é necessario ter um registro das informações sobre hora, data, e login para cada atividade de envio ou recebimento, a fim de implementar um suporte de auditoria no processo. Neste caso, novas atividades e fluxos que representam estas preocupações devem ser inseridos no processo. Como na figura 2. Tal inserção torna o modelo muito mais complicado com várias atividades replicadas.
+
+AOPML(Ascpect Oriented Process Modeling Language)
+
+A Linguagem de modelagem de processos orientada a aspectos baseaia-se n
+
+
+AOPML é composto por: 
+1- um modelo de processo de negócio descrito usando uma liguagem para modelagem, como o bpmn, EPC ou i* (i-star)
+2- um modelo de núcleo que descreve as relações transversais e um modelo de joinponts (de pontos de junções) que define como o modelo do núcleo e o modelo de componentes são compostas e quais os elementos deste modelo pode ser envolvido em um relacionamento transversal.
+
+
+

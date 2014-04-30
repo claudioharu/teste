@@ -21,7 +21,26 @@ A Linguagem de modelagem de processos orientada a aspectos baseaia-se n
 
 AOPML é composto por: 
 1- um modelo de processo de negócio descrito usando uma liguagem para modelagem, como o bpmn, EPC ou i* (i-star)
-2- um modelo de núcleo que descreve as relações transversais e um modelo de joinponts (de pontos de junções) que define como o modelo do núcleo e o modelo de componentes são compostas e quais os elementos deste modelo pode ser envolvido em um relacionamento transversal.
+2- um modelo de núcleo que descreve as relações transversais e um modelo de joinponts (de pontos de junções) que define como o modelo do núcleo e o modelo de componentes são compostas e quais os elementos deste modelo podem ser envolvidos em um relacionamento de crosscuttinga.
+
+Estruturalmente, a linguagem de modelagem de processos orientada a aspectos é constituida das seguintes partes:
+- Componentes da linguagem de modelagem de processo: Define os elementos que compõem a linguagem de modelagem de processo. Por exemplo: eventos, atividades objetos de dados etc.
+- Core Model(Modelo núcleo): descreve os relacionamentos entre os crosscutting que especificam como um elemento (o elemento crosscutting) impacta em outros elementos. Ambos os elementos são componenetes da Linguagem de modelagem de processos.
+- Joinpoints Model - define como o core model e os elementos da linguagem de modelagem estão relacionados e que elementos da linguagem podem estar envolvidos em um relacionamento de crosscutting. Fundamentalmente, ele define como o aspecto interage com o modelo.
+
+Pointcuts indicam os elementos do modelo do processo base que são afetados por um determinado concern.
+Advices define quais concerns serão inseridos no modelo de processo.
+Intertype declaration: é utilizada para adicionar novos tipos de elementos no modelo, indicando que tais novos elementos são resultantes da junção de duas caracteristicas.
 
 
+DIRETRIZES PARA O USO DA LINGUAGEM:
 
+O uso de uma linguagem orientada a aspectos para a modelagem de crosscutting concerns em modelos de processo precisa seguir algumas orientaçõs, como:
+
+1- A identificação dos componentes da linguagem/ elementos.
+2- A identificação dos elementos que compõem o modelo de joinpoints (elementos que serão afetados pelos crosscutting concerns), além da definição dos pointcuts e advices (e intertype declaration).
+3- A identificação dos crosscutting concerns e a definição dos relacionamentos entre crosscutting que afetam o processo.
+
+
+Mecaninismos para identificar e inserir crosscutting concerns:
+A identificação e a inserção dos crosscutting concerns no modelo consiste  

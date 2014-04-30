@@ -29,7 +29,7 @@ Estruturalmente, a linguagem de modelagem de processos orientada a aspectos é c
 - Joinpoints Model - define como o core model e os elementos da linguagem de modelagem estão relacionados e que elementos da linguagem podem estar envolvidos em um relacionamento de crosscutting. Fundamentalmente, ele define como o aspecto interage com o modelo.
 
 Pointcuts indicam os elementos do modelo do processo base que são afetados por um determinado concern.
-Advices define quais concerns serão inseridos no modelo de processo. Cada advice é formado por: (1) um tipo (AFTER, BEFORE, AROUND) que indica como eles irão afetar os pointcuts, (2) uma expressão de pointcuts, indicando quais são os pointcuts onde eles serão implementados e (3) o corpo que identificará que será incluida ou substituida.
+Advices define quais concerns serão inseridos no modelo de processo.
 Intertype declaration: é utilizada para adicionar novos tipos de elementos no modelo, indicando que tais novos elementos são resultantes da junção de duas caracteristicas.
 
 
@@ -51,22 +51,7 @@ Applying AOPML in the example
 
 
 
-Neste exemplo, foi utilizado a segunda abordage, uma vez que neste caso, iremos inserir um novo concern no processo. 
-Assim, as ações tomadas foram: 
-1- identificar o concern que será inserido baseado nas necessidades organizacionais ("Log Information").
-2- definir quais são os joinpoints (atividades que enviarão e receberão)
-3- Especificar os relacionamentos com os crosscutting
-O relacionamento com os crosscutting, podem ser definidos da seguinte forma?
-
-CROSSCUTTING <Log> {
-SOURCE = Log information;
-POINTCUT Logging: Include {(Receive* AND Send*)}
-ADVICES AFTER: Logging {(Register hour; Register date;
-Register login)}}
-
-Este crosscutting relationship (Crosscutting <Log>) define que todos as informações enviadas ou recebidas serão registradas, como consequencia esta informação pode ser auditada. Ela inclui a especificação do Loggin pointcut com joinpoints (atividades de send e receives). As clausulas advices define que depois dos elementos especificados pelo Logging pointcut as atividades de registro serão incluidas (registro de hora, data, login)
 
 
-FIGURAS
- 
+
 

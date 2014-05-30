@@ -16,6 +16,9 @@ class Ui_Dialog(QtGui.QWidget):
     def __init__(self):
         QtGui.QWidget.__init__(self)
         self.setupUi(self)
+        self.contrast = 0
+        self.brightness = 1.0
+		
 
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
